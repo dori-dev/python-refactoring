@@ -2,14 +2,17 @@
 with build-in sorted() method
 """
 
+# simple use sorted
 data = [3, 5, 1, 10, 9]
 sorted_data = sorted(data)
 print(sorted_data)
 
+# use revers parameter
 data = (3, 5, 1, 10, 9)
 sorted_data = sorted(data, reverse=True)
 print(sorted_data)
 
+# use key parameter
 data = [
     {
         "name": "ali",
