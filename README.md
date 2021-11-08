@@ -2,7 +2,7 @@
 
 Refactoring Python Applications for Simplicity
 
-### You can open and read project files or use this summary
+### You can open and read project files or use this summary 👇
 
 #
 
