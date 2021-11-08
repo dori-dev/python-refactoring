@@ -1,4 +1,4 @@
-"""Store unique values
+"""Save unique values
 with sets()
 """
 
