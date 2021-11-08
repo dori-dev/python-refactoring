@@ -91,7 +91,9 @@ unique_values = set(my_list)
 ```
 
 #
+
 ## Simplify IF Statement
+
 ```python
 color = "red"
 main_colors = ["red", "blue", "green"]
@@ -100,7 +102,9 @@ if color in main_colors:
 ```
 
 #
+
 ## Sort
+
 ```python
 data = [
     {
@@ -118,4 +122,19 @@ data = [
 ]
 
 sorted_data = sorted(data, key=lambda x: x["age"])
+```
+
+#
+
+## Counter
+
+```python
+from collections import Counter
+
+my_list = [4, 4, 4, 4, 8, 9, 7, 7, 7, 5, 5, 5, 5, 5, 5]
+counter = Counter(my_list)
+
+print(counter)
+most_common = counter.most_common(2)
+
 ```
