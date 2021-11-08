@@ -64,7 +64,9 @@ squares = [n * n for n in range(10)]
 ```
 
 #
+
 ## Merge Dictionaries
+
 ```python
 d1 = {
     "name": "Mohammad Dori",
@@ -77,4 +79,13 @@ d2 = {
     "job": "Developer"
 }
 merged_dict = {**d1, **d2}
+```
+
+#
+
+## Unique Values
+
+```python
+my_list = [1, 3, 7, 7, 8, 5, 3, 2, 9, 7, 3]
+unique_values = set(my_list)
 ```
