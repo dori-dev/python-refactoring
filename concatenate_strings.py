@@ -1,0 +1,2 @@
+"""Concatenate string
+with .join()"""
