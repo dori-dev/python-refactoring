@@ -1,6 +1,6 @@
 # Python Refactoring
 
-Refactoring Python Applications for Simplicity\
+Refactoring Python Applications for Simplicity
 
 ### You can open and read project files or use this summary 👇
 
@@ -35,3 +35,13 @@ for index, number in enumerate(data):
     if number < 0:
         data[index] = 0
 ```
+
+#
+
+## Format Strings
+
+```python
+name = "Mohammad"
+my_string = f"Hello {name}"
+```
+
