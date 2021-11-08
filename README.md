@@ -62,3 +62,19 @@ sum_numbers = sum(my_generator))
 squares = [n * n for n in range(10)]
 
 ```
+
+#
+## Merge Dictionaries
+```python
+d1 = {
+    "name": "Mohammad Dori",
+    "age": 25
+}
+
+d2 = {
+    "name": "Mohammad Dori",
+    "city": "Tehran",
+    "job": "Developer"
+}
+merged_dict = {**d1, **d2}
+```
