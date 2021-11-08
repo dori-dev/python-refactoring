@@ -12,13 +12,18 @@ print(sorted_data)
 
 data = [
     {
+        "name": "ali",
+        "age": 20,
+    },
+    {
         "name": "mohammad",
-        "family": "dori",
         "age": 17,
     },
     {
-        "name": "ali",
-        "family": "dori",
-        "age": 20,
+        "name": "sina",
+        "age": 50
     }
 ]
+
+sorted_data = sorted(data, key=lambda x: x["age"])
+print(sorted_data)
