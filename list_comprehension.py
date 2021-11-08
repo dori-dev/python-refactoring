@@ -1,4 +1,4 @@
-"""use list comprehension
+"""Use list comprehension
 instead of raw for loops
 """
 
