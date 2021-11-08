@@ -89,3 +89,33 @@ merged_dict = {**d1, **d2}
 my_list = [1, 3, 7, 7, 8, 5, 3, 2, 9, 7, 3]
 unique_values = set(my_list)
 ```
+
+#
+## Simplify IF Statement
+```python
+color = "red"
+main_colors = ["red", "blue", "green"]
+if color in main_colors:
+    print("its main color!")
+```
+
+#
+## Sort
+```python
+data = [
+    {
+        "name": "ali",
+        "age": 20,
+    },
+    {
+        "name": "mohammad",
+        "age": 17,
+    },
+    {
+        "name": "sina",
+        "age": 50
+    }
+]
+
+sorted_data = sorted(data, key=lambda x: x["age"])
+```
