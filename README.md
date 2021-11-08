@@ -45,3 +45,11 @@ name = "Mohammad"
 my_string = f"Hello {name}"
 ```
 
+#
+
+## Generators
+
+```python
+my_generator = (n**3 for n in range(10000))
+print(sum(my_generator))
+```
