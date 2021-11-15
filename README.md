@@ -159,3 +159,11 @@ else:
     result = number * 20
 label = f"Total {result}"
 ```
+
+#
+
+## Less FOR
+
+```python
+found = any(conditions)
+```
