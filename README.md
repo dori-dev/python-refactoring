@@ -167,3 +167,30 @@ label = f"Total {result}"
 ```python
 found = any(conditions)
 ```
+
+#
+
+# Project Tree
+
+```
+python-refactoring
+├── condition
+│   ├── do_not_repeat.py
+│   ├── less_if.py
+│   └── simplify_if.py
+├── loop
+│   ├── enumerate_iterate.py
+│   ├── list_comprehension.py
+│   └── use_fewer_loops.py
+├── other
+│   ├── merge_dict.py
+│   └── set_unique_values.py
+├── string
+│   ├── concatenate_strings.py
+│   └── format_strings.py
+└── tool
+    ├── define_dict_values.py
+    ├── generators.py
+    ├── sort_complex_iteration.py
+    └── value_counter.py
+```
