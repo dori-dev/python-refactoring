@@ -1,12 +1,14 @@
 """Use less "if"
 """
 
-CONDITION_a = True
-CONDITION_b = True
+CONDITION_A = True
+CONDITION_B = True
 
-if CONDITION_a:
-    if CONDITION_b:
+# inappropriate code ✗
+if CONDITION_A:
+    if CONDITION_B:
         print('mohammad dori')
 
-if CONDITION_a and CONDITION_b:
+# appropriate code ✓
+if CONDITION_A and CONDITION_B:
     print('mohammad dori')
