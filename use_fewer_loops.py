@@ -7,3 +7,8 @@ for condition in conditions:
     if condition:
         fount = True
         break
+print(fount)
+
+conditions = [False, False, False, True, False, True, True]
+found = any(conditions)
+print(found)
