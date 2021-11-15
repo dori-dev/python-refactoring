@@ -147,3 +147,15 @@ most_common = counter.most_common(2)
 if a and b:
     return c
 ```
+
+#
+
+## Do Not Repeat
+
+```python
+if condition:
+    result = number * 10
+else:
+    result = number * 20
+label = f"Total {result}"
+```
