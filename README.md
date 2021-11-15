@@ -138,3 +138,12 @@ print(counter)
 most_common = counter.most_common(2)
 
 ```
+
+#
+
+## Less IF
+
+```python
+if a and b:
+    return c
+```
